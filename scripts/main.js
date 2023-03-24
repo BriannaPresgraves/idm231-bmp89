@@ -142,7 +142,7 @@ function userPicked (modalCard) {
       DisplayImg.src = "images/jackrussellterrier.jpg";
       TitleNew.innerHTML = "Jack Russell Terrier";
       DateNew.innerHTML = "May 21 - June 21";
-      DescriptionNew.innerHTML = "Jack Russell Terriers are know to be some of the most outgoing, playful, smart, and adaptable dogs. You are a natural social butterfly who loves getting to meet new people and going to new places. You're always on the go.";
+      DescriptionNew.innerHTML = "Jack Russell Terriers are known to be some of the most outgoing, playful, smart, and adaptable dogs. You are a natural social butterfly who loves getting to meet new people and going to new places. You're always on the go.";
       jackrussellterrier.play()
 
       break;

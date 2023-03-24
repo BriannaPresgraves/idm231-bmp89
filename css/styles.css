@@ -1,0 +1,98 @@
+:root {
+    --black: #000000;
+    --white: #F9F9F9;
+    --light-grey: #CDD2D4;
+    --dark-grey: #353739;
+    --light-blue: #78B3BB;
+    --green: #a2c892;
+}
+
+* {
+    box-sizing: border-box;
+ }
+
+body{  
+    background-color: var(--green); 
+}
+
+ .birthday {
+    color: var(--white);
+    text-align: center;
+    margin: 0 auto 2rem;
+    background-color: var(--dark-grey);
+    opacity: 95%;
+    padding-top:2rem;
+    padding-bottom: 1rem;
+    width:100%;
+} 
+
+.heading {
+    color: var(--white);
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.dogimgs {
+    align-content: end;
+    column-gap: 10px;
+    display: grid;
+    grid-template-columns: 160px 160px 160px 160px ;
+    grid-template-rows: 90px 90px 90px;
+    justify-content: center;
+    row-gap: 50px;
+    margin-bottom: 3rem;
+}
+
+.dogbutton {
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    opacity: 100%;
+    outline: none;
+}
+
+.dogbutton > img {
+    width:80%;
+    border: 2in;   
+}
+
+.dogbutton:hover{
+    opacity:80%;
+}
+
+.info {
+    background-color: var(--dark-grey);
+    margin-bottom: 0;
+    margin-top: 1rem;
+    text-align: center;
+    padding-top: 0.1rem;
+}
+
+.title {
+    color: var(--white);
+    font-size: 2.2rem;
+}
+
+.date {
+    color: var(--white);
+    font-size: 1.75rem;  
+}
+
+.background {
+    opacity: 100%;
+    width: auto;
+    height: 300px;
+}
+
+.description {
+    color: var(--white);
+    margin-inline: 15rem;
+    font-size:1.5rem;
+    text-align: left;
+    line-height: 2rem;
+}
+
+.help {
+    margin-bottom: 2rem;
+}
