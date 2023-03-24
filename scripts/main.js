@@ -74,7 +74,7 @@ function userPicked (modalCard) {
   // Dog Breed Descriptions
   switch (modalCard) {
     case 'Capricorn':
-      DisplayImg.src="images/belgiansheepdog.jpg";
+      DisplayImg.src="belgiansheepdog.jpg";
       TitleNew.innerHTML = "Belgian Sheepdog";
       DateNew.innerHTML = "December 22 - January 19";
       DescriptionNew.innerHTML = "You value a pratical and focused approach to life. Reaching your goals is your number one priority, and you often think about how your actions will help you achieve these dreams. You are determined yet calm just like a Belgian Sheepdog. ";
@@ -84,7 +84,7 @@ function userPicked (modalCard) {
       break;
 
     case 'Sagittarius':
-      DisplayImg.src = "images/brittanyspaniel.jpg";
+      DisplayImg.src = "brittanyspaniel.jpg";
       TitleNew.innerHTML = 'Brittany Spaniel';
       DateNew.innerHTML = "November 22 - December 21";
       DescriptionNew.innerHTML = "Like a Brittany Spaniel, you are energetic and carefree. You're a free spirit who is always on the lookout for the next big adventure in life.";
@@ -94,7 +94,7 @@ function userPicked (modalCard) {
       break;
 
       case 'Scorpio':
-      DisplayImg.src = "images/americanbloodhound.jpg";
+      DisplayImg.src = "americanbloodhound.jpg";
       TitleNew.innerHTML = "American Bloodhound";
       DateNew.innerHTML = "October 24 - November 21st";
       DescriptionNew.innerHTML = "You're a reserved and mysterious type who plays their cards close to the chest. It takes some time to earn your trust, but once it's earned, you're one of the most loyal and dedicated dog breeds.";
@@ -103,7 +103,7 @@ function userPicked (modalCard) {
       break;
 
       case 'Libra':
-      DisplayImg.src = "images/samoyed.jpg";
+      DisplayImg.src = "samoyed.jpg";
       TitleNew.innerHTML = "Samoyed";
       DateNew.innerHTML = "September 23 - October 23";
       DescriptionNew.innerHTML = "Samoyeds thrive on companionship but also know how to enjoy alone time, like you. You're a social butterfly. You're always tactful and diplomatic which means you can fit in anyplace, anytime, with anyone.";
@@ -112,7 +112,7 @@ function userPicked (modalCard) {
       break;
 
       case 'Virgo':
-      DisplayImg.src = "images/sheltie.jpg";
+      DisplayImg.src = "sheltie.jpg";
       TitleNew.innerHTML = "Sheltie";
       DateNew.innerHTML = "August 23 - September 22";
       DescriptionNew.innerHTML = "You are known for being hardworking and affectionate like a Sheltie. You have a sensitive, giving personality and are a perfectionist with an analytical eye. There's no job or dream too big to scare you, and you're the kind of person who reliably shows up for themselves and others.";
@@ -121,7 +121,7 @@ function userPicked (modalCard) {
       break;
 
       case 'Leo':
-      DisplayImg.src = "images/goldenretriever.jpg";
+      DisplayImg.src = "goldenretriever.jpg";
       TitleNew.innerHTML = "Golden Retriever";
       DateNew.innerHTML = "July 23 - August 22";
       DescriptionNew.innerHTML = "Golden Retrievers are characterized by their gentle and affectionate nature. This breed is regal, smart, and fun-loving just like you. Your sense of adventure is the driving force behind almost all of the decisions you make and this breed shares your bright and bold personality. ";
@@ -130,7 +130,7 @@ function userPicked (modalCard) {
       break;
 
       case 'Cancer':
-      DisplayImg.src = "images/bordercollie.jpg";
+      DisplayImg.src = "bordercollie.jpg";
       TitleNew.innerHTML = "Border Collie";
       DateNew.innerHTML = "June 22 - July 22";
       DescriptionNew.innerHTML = "Border Collies are known to be gentle, energetic, and people-loving just like you. You are extremely family orientated and take these relationships very seriously. You are a natural nurturer and homebody.";
@@ -139,7 +139,7 @@ function userPicked (modalCard) {
       break;
 
       case 'Gemini':
-      DisplayImg.src = "images/jackrussellterrier.jpg";
+      DisplayImg.src = "jackrussellterrier.jpg";
       TitleNew.innerHTML = "Jack Russell Terrier";
       DateNew.innerHTML = "May 21 - June 21";
       DescriptionNew.innerHTML = "Jack Russell Terriers are known to be some of the most outgoing, playful, smart, and adaptable dogs. You are a natural social butterfly who loves getting to meet new people and going to new places. You're always on the go.";
@@ -148,7 +148,7 @@ function userPicked (modalCard) {
       break;
 
       case 'Taurus':
-      DisplayImg.src = "images/italiangreyhound.jpg";
+      DisplayImg.src = "italiangreyhound.jpg";
       TitleNew.innerHTML = "Italian Greyhound";
       DateNew.innerHTML = "April 20 - May 20";
       DescriptionNew.innerHTML = "Italian Greyhounds are known for their sweet, gentle, and affable personality, just like you. You're a practical person who prefers to take things slow in life. As a lover of the finer things, you take pride in working hard and playing harder. You also have a patient and protective personality.";
@@ -157,7 +157,7 @@ function userPicked (modalCard) {
       break;
 
       case 'Aries':
-      DisplayImg.src = "images/germanshepherd.jpg";
+      DisplayImg.src = "germanshepherd.jpg";
       TitleNew.innerHTML = "German Shepherd";
       DateNew.innerHTML = "March 21 - April 19";
       DescriptionNew.innerHTML = " German Shepherds are a caring and playful spirit that's just as active and fiecerly loyal as you. You're an assertive leader who loves competition, physical activity, and the great outdoors. However, you also have a loving and devoted side when it comes to those you hold most dear.";
@@ -166,7 +166,7 @@ function userPicked (modalCard) {
       break;
 
       case 'Pisces':
-      DisplayImg.src = "images/aussie.jpg";
+      DisplayImg.src = "aussie.jpg";
       TitleNew.innerHTML = "Aussie";
       DateNew.innerHTML = "February 19 - March 20";
       DescriptionNew.innerHTML = "An Aussie has the same loving personality as you, and they're famous for their good-natured temperaments. You are empathic, creative, and are known for your intuitive approach to life.";
@@ -175,7 +175,7 @@ function userPicked (modalCard) {
       break;
 
       case 'Aquarius':
-      DisplayImg.src = "images/pitbullmix.jpg";
+      DisplayImg.src = "pitbullmix.jpg";
       TitleNew.innerHTML = "Pitbull Mix";
       DateNew.innerHTML = "January 20 - February 18";
       DescriptionNew.innerHTML = "A Pitbull Mix is very people-orientated, affectionate, and playful. They're also known to mold their energy levels to their living situation. Unlike others that go with the status quo, you like to standout from the crowd.";
