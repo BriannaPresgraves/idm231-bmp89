@@ -142,7 +142,7 @@ function userPicked (modalCard) {
       DisplayImg.src = "images/jackrussellterrier.jpg";
       TitleNew.innerHTML = "Jack Russell Terrier";
       DateNew.innerHTML = "May 21 - June 21";
-      DescriptionNew.innerHTML = "JAck Russell Terriers are know to be some of the most outgoing, playful, smart, and adaptable dogs. You are a natural social butterfly who loves getting to meet new people and going to new places. You're always on the go.";
+      DescriptionNew.innerHTML = "Jack Russell Terriers are know to be some of the most outgoing, playful, smart, and adaptable dogs. You are a natural social butterfly who loves getting to meet new people and going to new places. You're always on the go.";
       jackrussellterrier.play()
 
       break;
@@ -258,3 +258,32 @@ jackrussellterrier.addEventListener('click', function (evt) {
   userPicked(id);
 });
 
+italiangreyhound.addEventListener('click', function (evt) {
+  console.log('italiangreyhound button clicked' + evt.target.id);
+  const id = 'Taurus';
+  userPicked(id);
+});
+
+germanshepherd.addEventListener('click', function (evt) {
+  console.log('germanshepherd button clicked' + evt.target.id);
+  const id = 'Aries';
+  userPicked(id);
+});
+
+aussie.addEventListener('click', function (evt) {
+  console.log('aussie button clicked' + evt.target.id);
+  const id = 'Pisces';
+  userPicked(id);
+});
+
+pitbullmix.addEventListener('click', function (evt) {
+  console.log('pitbullmix button clicked' + evt.target.id);
+  const id = 'Aquarius';
+  userPicked(id);
+});
+
+help.addEventListener ('click',function (evt) {
+  console.log('help button clicked'+evt.target.id);
+  const id = 'help';
+  userPicked(id)
+});
