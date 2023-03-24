@@ -9,7 +9,54 @@
     <title>Which dog breed are you?</title>
 </head>
 <body>
+<!--// Birthday Imput-->
+    <div class="birthday" >
+        <h1 class="heading">Which dog breed are you?</h1>
+        <label id="birthdaytext" for="birthday" class="birthday">Enter your birthday:</label>
+        <input type="date" id="birthday">
+        <button id="submit">Submit</button>
+        <button class="info" id="info">Help</button>
+    </div>
+
+<!--// Dog image buttons-->
+    <div class="dogbreeds">
+        <div class="dogimgs">
+
+            <button class="dogbutton" id="Aquarius"> <img src="images/pitbullmix.jpg" alt="Pitbull Mix"></button>
+            
+            <button class="dogbutton" id="Pisces"> <img src="images/aussie.jpg" alt="Aussie"></button>
+                       
+            <button class="dogbutton" id="Aries"> <img src="images/germanshepherd.jpg" alt="German Shepherd"></button>
+          
+            <button class="dogbutton" id="Taurus"> <img src="images/italiangreyhound.jpg" alt="Italian Greyhound"></button>
+                       
+            <button class="dogbutton" id="Gemini"> <img src="images/jackrussellterrier.jpg" alt="Jack Russell Terrier"></button>
+            
+            <button class="dogbutton" id="Cancer"> <img src="images/bordercollie.jpg" alt="Border Collie"></button>
+                    
+            <button class="dogbutton" id="Leo"> <img src="images/goldenretriever.jpg" alt="Golden Retriever"></button>
+                    
+            <button class="dogbutton" id="Virgo"> <img src="images/sheltie.jpg" alt="Sheltie"></button>
+                        
+            <button class="dogbutton" id="Libra"> <img src="images/samoyed.jpg" alt="Samoyed"></button>
+                    
+            <button class="dogbutton" id="Scorpio"> <img src="images/americanbloodhound.jpg" alt="American Bloodhound"></button>
+            
+            <button class="dogbutton" id="Sagittarius"> <img src="images/brittanyspaniel.jpg" alt="Brittany Spaniel"></button>
+           
+            <button class="dogbutton" id="Capricorn"> <img src="images/belgiansheepdog.jpg" alt="Belgian Sheepdog"> </button>
+
+        </div>
+    </div>
     
+<!--// Dog breed info display-->
+    <div class="info">
+        <h2 id="title" class="title"></h2>
+        <img class="background" id="background" src="" alt="">
+        <h3 id="date" class="date"></h3>
+        <p id="description" class="description"></p>  
+    </div>
+
     <script src="scripts/main.js"></script>
 </body>
 </html>
