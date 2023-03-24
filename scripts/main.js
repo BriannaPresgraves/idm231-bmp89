@@ -74,7 +74,7 @@ function userPicked (modalCard) {
   // Dog Breed Descriptions
   switch (modalCard) {
     case 'Capricorn':
-      DisplayImg.src="belgiansheepdog.jpg";
+      DisplayImg.src="images/belgiansheepdog.jpg";
       TitleNew.innerHTML = "Belgian Sheepdog";
       DateNew.innerHTML = "December 22 - January 19";
       DescriptionNew.innerHTML = "You value a pratical and focused approach to life. Reaching your goals is your number one priority, and you often think about how your actions will help you achieve these dreams. You are determined yet calm just like a Belgian Sheepdog. ";
