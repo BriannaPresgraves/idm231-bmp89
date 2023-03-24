@@ -4,20 +4,20 @@ const TitleNew = document.getElementById('title');
 const DateNew = document.getElementById('date');
 const DescriptionNew = document.getElementById('description');
 
-// Birthday Input and Sign Calculation
+// Birthday input and Sign calculation
 const userSubmit = document.getElementById('submit');
 
 userSubmit.addEventListener('click', function () {
     console.log('submitButton clicked');
   
-const birthdate = new Date(document.getElementById('birthday').value);
-console.log('birthdate is: ' + birthdate);
+const userBday = new Date(document.getElementById('birthday').value);
+console.log('userBday is: ' + userBday);
 
-let month = birthdate.getUTCMonth();
+let month = userBday.getUTCMonth();
 month++;
 console.log('month is: ' + month);
 
-const day = birthdate.getUTCDate();
+const day = userBday.getUTCDate();
 console.log('day is: ' + day);
   
 let id = '';
@@ -112,7 +112,7 @@ function userPicked (modalCard) {
       break;
 
       case 'Virgo':
-      DisplayImg.src = "images/images/sheltie.jpg";
+      DisplayImg.src = "images/sheltie.jpg";
       TitleNew.innerHTML = "Sheltie";
       DateNew.innerHTML = "August 23 - September 22";
       DescriptionNew.innerHTML = "You are known for being hardworking and affectionate like a Sheltie. You have a sensitive, giving personality and are a perfectionist with an analytical eye. There's no job or dream too big to scare you, and you're the kind of person who reliably shows up for themselves and others.";
@@ -183,7 +183,7 @@ function userPicked (modalCard) {
      
       break;
 
-      case 'help':
+      case 'info':
         DisplayImg.src = "";
         TitleNew.innerHTML = "";
         DateNew.innerHTML = "";
@@ -192,98 +192,98 @@ function userPicked (modalCard) {
   }
 }
 
-// define dog breeds
 function userBirthday () {}
 
-const belgiansheepdog = document.getElementById('Capricorn')
-const brittanyspaniel = document.getElementById('Sagittarius')
-const americanbloodhound = document.getElementById('Scorpio')
-const samoyed = document.getElementById('Libra')
-const sheltie = document.getElementById('Virgo')
-const goldenretriever = document.getElementById('Leo')
-const bordercollie = document.getElementById('Cancer')
-const jackrussellterrier = document.getElementById('Gemini')
-const italiangreyhound = document.getElementById('Taurus')
-const germanshepherd = document.getElementById('Aries')
-const aussie = document.getElementById('Pisces')
-const pitbullmix = document.getElementById('Aquarius')
-const help = document.getElementById('help')
+// define dogbreeds
+const belgiandog = document.getElementById('Capricorn')
+const spaniel = document.getElementById('Sagittarius')
+const bloodhound = document.getElementById('Scorpio')
+const samyoeddog = document.getElementById('Libra')
+const shelties = document.getElementById('Virgo')
+const retriever = document.getElementById('Leo')
+const collie = document.getElementById('Cancer')
+const russelterrier = document.getElementById('Gemini')
+const greyhound = document.getElementById('Taurus')
+const shepherd = document.getElementById('Aries')
+const aussies = document.getElementById('Pisces')
+const pitbull = document.getElementById('Aquarius')
+const info = document.getElementById('info')
 
-// Dog Button Click Event Listeners
-belgiansheepdog.addEventListener('click', function (evt) {
+// dog buttons click event listeners
+belgiandog.addEventListener('click', function (evt) {
   console.log('belgiansheepdog button clicked' + evt.target.id); 
   const id = 'Capricorn';
   userPicked(id);
 });
 
-brittanyspaniel.addEventListener('click', function (evt) {
+spaniel.addEventListener('click', function (evt) {
   console.log('brittanyspaniel button clicked' + evt.target.id);
   const id = 'Sagittarius';
   userPicked(id);
 });
 
-americanbloodhound.addEventListener('click', function (evt) {
+bloodhound.addEventListener('click', function (evt) {
   console.log('americanbloodhound button clicked' + evt.target.id);
   const id = 'Scorpio';
   userPicked(id);
 });
 
-samoyed.addEventListener('click', function (evt) {
+samyoeddog.addEventListener('click', function (evt) {
   console.log('samoyed button clicked' + evt.target.id);
   const id = 'Libra';
   userPicked(id);
 });
 
-sheltie.addEventListener('click', function (evt) {
+shelties.addEventListener('click', function (evt) {
   console.log('sheltie button clicked' + evt.target.id);
   const id = 'Virgo';
   userPicked(id);
 });
 
-goldenretriever.addEventListener('click', function (evt) {
+retriever.addEventListener('click', function (evt) {
   console.log('goldenretriever button clicked' + evt.target.id);
   const id = 'Leo';
   userPicked(id);
 });
 
-bordercollie.addEventListener('click', function (evt) {
+collie.addEventListener('click', function (evt) {
   console.log('bordercollie button clicked' + evt.target.id);
   const id = 'Cancer';
   userPicked(id);
 });
 
-jackrussellterrier.addEventListener('click', function (evt) {
+russelterrier.addEventListener('click', function (evt) {
   console.log('jackrussellterrier button clicked' + evt.target.id);
   const id = 'Gemini';
   userPicked(id);
 });
 
-italiangreyhound.addEventListener('click', function (evt) {
+greyhound.addEventListener('click', function (evt) {
   console.log('italiangreyhound button clicked' + evt.target.id);
   const id = 'Taurus';
   userPicked(id);
 });
 
-germanshepherd.addEventListener('click', function (evt) {
+shepherd.addEventListener('click', function (evt) {
   console.log('germanshepherd button clicked' + evt.target.id);
   const id = 'Aries';
   userPicked(id);
 });
 
-aussie.addEventListener('click', function (evt) {
+aussies.addEventListener('click', function (evt) {
   console.log('aussie button clicked' + evt.target.id);
   const id = 'Pisces';
   userPicked(id);
 });
 
-pitbullmix.addEventListener('click', function (evt) {
+pitbull.addEventListener('click', function (evt) {
   console.log('pitbullmix button clicked' + evt.target.id);
   const id = 'Aquarius';
   userPicked(id);
 });
 
-help.addEventListener ('click',function (evt) {
+info.addEventListener ('click',function (evt) {
   console.log('help button clicked'+evt.target.id);
-  const id = 'help';
+  const id = 'info';
   userPicked(id)
 });
